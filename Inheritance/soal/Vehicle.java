@@ -7,7 +7,6 @@ public class Vehicle {
 
     public Vehicle(String model, String color) {
         setModel(model);
-        // setYear(year);
         setColor(color);
     }
 

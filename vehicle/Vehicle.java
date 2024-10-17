@@ -16,7 +16,7 @@ public class Vehicle {
     public void setYear(int year) {
         if(1800 <= year && year <= 2025){
             this.year = year;
-            S       ystem.out.println(this.model + " year saved\n");  
+            System.out.println(this.model + " year saved\n");  
         }
         else{
             System.out.println("failed\n");
