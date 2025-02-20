@@ -15,7 +15,8 @@ public class PersonalComputer {
     public void readData (CompactDisk cd){
         //cd.read();
     }
+
     public void detectMouse(Mouse mouse){
-        this.mouse = new Mouse();
+        this.mouse = mouse;
     }
 }
